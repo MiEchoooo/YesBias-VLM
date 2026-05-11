@@ -1,0 +1,100 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# virtual env
+venv/
+.env/
+.venv/
+
+# =========================
+# PyTorch / Training
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+wandb/
+runs/
+
+# =========================
+# IDE
+# =========================
+.idea/
+.vscode/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Dataset
+# 大数据集不要上传GitHub
+# =========================
+data/images/
+data/val2014/
+data/coco/
+data/raw/
+
+# =========================
+# Model Weights
+# 大模型不要上传
+# =========================
+models/
+!models/README.md
+
+# =========================
+# Outputs / Answers
+# 推理结果与attention输出
+# =========================
+answer/
+outputs/
+results/
+attention_maps/
+attention_output/
+attention_cache/
+heatmaps/
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Evaluation Cache
+# =========================
+*.jsonl.bak
+*.cache
+
+# =========================
+# Keep source code
+# =========================
+!src/
+!README.md
+!requirements.txt
+!LICENSE
